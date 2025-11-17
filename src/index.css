@@ -1,3 +1,26 @@
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+  min-zoom: 1.0;
+  max-zoom: 1.0;
+  user-zoom: fixed;
+}
+
+@media screen and (min-width: 320px) and (max-width: 650px) {
+    :root {
+        font-size: 15px;
+    }
+}
+
+html {
+    -webkit-text-size-adjust: 100%; /* Disable text scaling in Safari and Chrome */
+    -ms-text-size-adjust: 100%; /* Disable text scaling in Internet Explorer */
+    text-size-adjust: 100%; /* Disable text scaling in modern browsers */
+      -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    touch-action: manipulation;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +28,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #c3d4cb;
+  background-color: rgba(128, 128, 128, 0.01);
+  min-height: -webkit-fill-available;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

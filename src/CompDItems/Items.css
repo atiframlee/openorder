@@ -1,0 +1,188 @@
+
+.items{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 10rem;
+    margin: 2rem 0;
+    border-radius: 10px;
+    font-size: 14px;
+    align-items: center;
+
+}
+
+
+
+.itemsCon{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: calc(100% - 2.5rem);
+    padding: 0.5rem;
+    padding-top: 0%;
+    margin: 0.5rem 0;
+    background-image: linear-gradient(120deg, hsla(0, 33%, 99%, 0.5) 0%, hsla(200, 8%, 93%, 0.7) 100%);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
+}
+
+.itemsBox{
+    display: flex;
+}
+
+
+.menusName{
+    font-weight: 500;
+    text-transform: capitalize;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    margin: 0 0 0.2rem 0;
+
+}
+
+.menusPrice{
+    margin: 0.2rem 0;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.delFare{
+    margin: 0.2rem 0;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.menusDel{
+    margin: 0.2rem 0;
+    font-size: 12px;
+    display: flex;
+}
+
+.delsIcon{
+    margin-right: 5px;
+}
+
+.itemsLeft{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+}
+
+.itemsRight{
+    display: flex;
+    flex: 1;
+    min-width: 0;
+    flex-direction: column;
+}
+
+.foodImg{
+    width: 95%;
+    height: auto;
+    max-height: 8rem;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.vendorsLoc{
+    font-size: 12px;
+}
+
+.time{
+    /* background-color: rgba(0, 255, 255, 0.219); */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: max-content;
+    padding: 0.25rem 0.75rem;
+    margin: 0.2rem 0.5rem 0.2rem 0;
+    font-size: 12px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+
+
+.delMotorIcon{
+    margin-right: 5px;
+}
+
+.vendorsInven{
+    margin: 0.2rem 0;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.invenIcon{
+    margin-right: 5px;
+}
+
+
+
+.venName{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.chefhatI{
+    margin-right: 5px;
+    height: .9rem;
+    width: .9rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 0.2rem;
+}
+
+.dollarIcon{
+    margin-right: 5px;
+}
+
+.ratings{
+    margin: -1rem 0 1rem 1.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.star{
+    color: rgb(255, 153, 0);
+    margin-right: 0.1rem;
+}
+
+.rate{
+    font-size: 12px;
+}
+
+.rateNum{
+    font-size: 12px;
+}
+
+/* dots indicator */
+.menuDots{
+    display: flex;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.15);
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.dot.active{
+    background-color: rgba(0,0,0,0.8);
+    transform: scale(1.1);
+}
+

@@ -1,0 +1,43 @@
+.search{
+    padding-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 2.5rem);
+}
+
+.searchHeader{
+    display: flex;
+    align-items: center;
+    max-height: fit-content;
+}
+
+.searchTitle{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.searchBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.searchIn{
+    font-size: 16px;
+    padding: 0.8rem 0 0.8rem 3rem;
+    width: calc(90% - 3rem);
+    background-color: rgb(239, 239, 239);
+    border: none;
+    border-radius: 10px;
+}
+
+.searchIn:focus{
+    outline: none;
+}
+
+.searchI{
+    position: absolute;
+    left: 8%;
+    margin-top: 0.65rem;
+}
+

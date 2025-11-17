@@ -1,0 +1,10 @@
+{
+  "appId": "com.openorder.app",
+  "appName": "openorder",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
+  }
+}
