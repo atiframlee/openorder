@@ -1,0 +1,351 @@
+/* ────────── MAIN CONTAINER ────────── */
+.items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 10rem;
+    margin: 2rem 0;
+    border-radius: 10px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.itemsCon {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: calc(100% - 2.5rem);
+    padding: 1rem 0.5rem;
+    margin: 0.75rem 0;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
+}
+
+.vendorList{
+  display: flex;
+  width: 100%;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.vendor{
+  margin-left: 1rem;
+  margin-right: 0.25rem;
+}
+
+.itemsBox {
+    display: flex;
+}
+
+.menusName {
+    font-weight: 500;
+    text-transform: capitalize;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    margin: 0 0 0.2rem 0;
+}
+
+.menusPrice {
+    color: green;
+    margin: 0.2rem 0;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.delFare {
+    margin: 0.2rem 0;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.menusDel {
+    margin: 0.2rem 0;
+    font-size: 12px;
+    display: flex;
+}
+
+.delsIcon {
+    margin-right: 5px;
+}
+
+.itemsLeft {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+}
+
+.itemsRight {
+    display: flex;
+    flex: 1;
+    min-width: 0;
+    flex-direction: column;
+}
+
+/* ────────── REAL IMAGE STYLING ────────── */
+.foodImg {
+    width: 95%;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+/* ────────── FALLBACK IMAGE STYLING ────────── */
+.foodImgFallback {
+    width: 95%;
+    height: 10rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    box-shadow: 1px 1px 1px rgb(221, 221, 221),-1px -1px 1px rgb(215, 211, 211);
+    position: relative;
+}
+
+.foodImgFallback .fallbackImg {
+    width: 20%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: grayscale(80%) brightness(95%);
+    opacity: 0.95;
+}
+
+/* Optional: Add "No photo" badge as real element */
+.foodImgFallback::after {
+    content: "No photo";
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    font-size: 10px;
+    color: #6c757d;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2px 5px;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+.vendorsLoc {
+    font-size: 12px;
+}
+
+.time {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: max-content;
+    padding: 0.25rem 0.75rem;
+    margin: 0.2rem 0.5rem 0.2rem 0;
+    font-size: 12px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.delMotorIcon {
+    margin-right: 5px;
+}
+
+.vendorsInven {
+    margin: 0.2rem 0;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.invenIcon {
+    margin-right: 5px;
+}
+
+.venName {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    margin-top: 0%;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgba(0, 128, 0, 0.05);
+    width: fit-content;
+    padding: 0.25rem 0.75rem;
+    padding-right: 1.25rem;
+    border-radius: 0 20px 20px 0;
+}
+
+.dollarIcon {
+    margin-right: 5px;
+}
+
+.ratings {
+    margin: -.75rem 0 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    color: rgb(255, 153, 0);
+    margin-right: 0.1rem;
+}
+
+.rate {
+    font-size: 12px;
+}
+
+.rateNum {
+    font-size: 12px;
+}
+
+/* dots indicator */
+.menuDots {
+    display: flex;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.15);
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.dot.active {
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: scale(1.1);
+}
+
+
+/* Add these new styles to Items.css */
+
+.menuRating {
+  margin: 0.2rem 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.ItemsSold{
+    background-color: rgba(211, 211, 211, 0.3);
+    padding: 2.5px 5px;
+    border-radius: 2.5px;
+    font-size: 11px;
+}
+
+.midstar {
+  margin-right: 3px;
+  color: #FF9800;
+}
+
+.deliveryPattern {
+  margin: 0.2rem 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.deliveryIcon {
+  margin-right: 5px;
+}
+
+.inventoryInfo {
+  margin: 0.2rem 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.nextDelivery {
+  margin: 0.2rem 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.calendarIcon {
+  margin-right: 5px;
+}
+
+/* Add these new styles to Items.css */
+
+.menuRating {
+  margin: 0.2rem 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.midstar {
+  margin-right: 3px;
+  color: #FF9800;
+}
+
+.deliveryPattern {
+  margin: 0.2rem 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.deliveryIcon {
+  margin-right: 5px;
+}
+
+.inventoryInfo {
+  margin: 0.2rem 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.invenIcon {
+  margin-right: 5px;
+}
+
+.itemsNextDelivery {
+  margin: 0.2rem 0;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+}
+.itemsNextDelDate{
+    font-weight: 500;
+    margin: 0 0.25rem;
+    color: green;
+}
+.itemsNextDelData{
+    margin-left: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemsDelTimeSlot {
+  background-color: rgba(0, 123, 255, 0.05);
+  color: #007bff;
+  font-weight: 450;
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  margin: 0.5rem 0.25rem;
+  margin-bottom: 0;
+  font-size: 12px;
+  border: 1px solid rgb(0, 123, 255);
+}
+
+
+
+.itemsDelTimeSlot:last-child {
+  margin-right: 0;
+}
+
+.calendarIcon {
+  margin-right: 5px;
+}
+

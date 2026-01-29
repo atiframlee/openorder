@@ -1,0 +1,86 @@
+.layoutOne {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 1rem 0 1rem;
+}
+
+.loHeaderWord {
+    font-size: 130%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.openOrder {
+    font-weight: 700;
+    margin: 0 4px;
+}
+
+
+.locRails {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: auto;
+    display: flex;
+    align-items: end;
+    flex-grow: 1;
+    padding-left: 0.5rem;
+}
+
+
+.loCarousel {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    gap: 0.25rem;
+    padding: 1rem 0;
+    overflow-y: hidden;
+    align-items: flex-start;
+}
+
+.loCarousel::-webkit-scrollbar {
+    display: none;
+}
+
+.locList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    flex: 0 0 auto;
+    width: 75px;
+    border-radius: 5px;
+    padding: 0.5rem 0.25rem;
+}
+
+.locListImgCon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    background: linear-gradient(120deg, hsla(216, 100%, 95%, 0.5) 0%, hsla(296, 84%, 93%, 0.5) 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 4px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+.locListIcon {
+    width: 30px;
+    height: auto;
+    object-fit: contain;
+}
+
+.locListName {
+    text-align: center;
+    max-width: 70%;
+    font-weight: 400;
+    margin-top: 0.25rem;
+    color: rgb(61, 61, 61);
+}

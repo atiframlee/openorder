@@ -1,0 +1,298 @@
+.login {
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    height: calc(100vh - 10rem);
+    width: 100%;
+    max-width: 500px;
+    padding: 5rem 0 5rem 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%);
+}
+
+.loginOOCon {
+    text-align: center;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.loginTitle {
+    margin: 0.5rem;
+    font-weight: 500;
+    margin-top: 0.75rem;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginTitle {
+    height: 6.5rem;
+    width: 6.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 1px rgb(51, 51, 51);
+    border: 0.5px solid rgb(217, 217, 217);
+      /* existing styles */
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* initial shadow */
+    box-shadow: 1px 1px 1px rgba(51,51,51,0.8);
+    /* enable animation */
+    animation: shadowShift 5s infinite alternate ease-in-out;
+}
+
+@keyframes shadowShift {
+  from {
+    box-shadow: 1px 1px 1px rgba(51,51,51,0.8);
+  }
+  to {
+    box-shadow: -1px -1px 1px rgba(51,51,51,0.8);
+  }
+}
+
+
+.loginSubTitle {
+    margin: 0;
+    font-weight: 500;
+}
+
+.loginLabel {
+    margin: 0.5rem 0 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.logI {
+    margin-right: 0.5rem;
+}
+
+.loginButton {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.loginTSmall {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.loginOO {
+    font-size: 30px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.75rem;
+}
+
+.loginOOSub {
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.medsosCon {
+    width: 80%;
+    margin: 0.5rem 0;
+    padding: 0.75rem 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.231);
+}
+
+.loginIcon {
+    margin: 0 0.5rem;
+}
+
+
+
+.loginIconTab {
+    margin: 0 0.5rem;
+    color: rgb(43, 78, 254);
+}
+
+.medsosCon:nth-of-type(4) .loginIconTab {
+    color: black;
+}
+
+.loginOr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem 0;
+    /* Add spacing above and below */
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
+
+.loginOr::before,
+.loginOr::after {
+    content: "";
+    /* Empty content for the lines */
+    flex: 1;
+    /* Take up available space */
+    height: 1px;
+    /* Line thickness */
+    background-color: lightgray;
+    /* Line color */
+    margin: 0 1rem;
+    /* Spacing between the line and the text */
+}
+
+.loginWEmail {
+    background-color: black;
+    width: 80%;
+    padding: 1rem 0;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+
+.loginIns {
+    margin: 1rem 0;
+}
+
+.signupIcon {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: -1.5rem;
+    margin-top: 1rem;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signupMessage {
+    text-align: center;
+    color: #6c757d;
+}
+
+.signupIn {
+    padding: 1rem;
+    font-size: 16px;
+    margin: 0.5rem 0;
+    border: 0.5px solid rgb(211, 211, 211);
+    border-radius: 5px;
+    background: #f8f9fa;
+}
+
+.signupIn:focus {
+    outline: none;
+}
+
+.signupTitle {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0rem;
+}
+
+.signupButton {
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+    text-align: center;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.resPass {
+    text-decoration: underline;
+}
+
+/* Loading state for buttons */
+.signupButton.loading {
+    pointer-events: none;
+}
+
+.signupButton.loading {
+    color: rgba(255, 255, 255, 0);
+}
+
+
+.button-spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid transparent;
+    border-top: 2px solid white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@keyframes spin {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 12px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 2px solid #ffffff00;
+    border-right-color: #ffffff97;
+    position: relative;
+    animation: l24 1s infinite linear;
+}
+
+.loader:before,
+.loader:after {
+    content: "";
+    position: absolute;
+    inset: -8px;
+    border-radius: 50%;
+    border: inherit;
+    animation: inherit;
+    animation-duration: 2s;
+}
+
+.loader:after {
+    animation-duration: 4s;
+}
+
+@keyframes l24 {
+    100% {
+        transform: rotate(1turn)
+    }
+}

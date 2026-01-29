@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9d589269.css",
+    "main.js": "/static/js/main.8c667157.js",
+    "static/js/453.40094eb3.chunk.js": "/static/js/453.40094eb3.chunk.js",
+    "static/media/homechefs.png": "/static/media/homechefs.0ecde0c2e28581793feb.png",
+    "static/media/nasikerabu.jpg": "/static/media/nasikerabu.cadbc86d227317fb7337.jpg",
+    "static/media/HerbalChickenSoup.avif": "/static/media/HerbalChickenSoup.f7d9d5a165ba0245ec20.avif",
+    "static/media/capatibeef.jpeg": "/static/media/capatibeef.a5a38fe0c755297bcb11.jpeg",
+    "static/media/ayamgepuk.webp": "/static/media/ayamgepuk.4ba6cffd70b5f71fe783.webp",
+    "static/media/smashburger.jpg": "/static/media/smashburger.36a1e2daed41e655ed5d.jpg",
+    "static/media/nasidagang.jpg": "/static/media/nasidagang.73c696d21d49cefa7f15.jpg",
+    "static/media/asampedas.jpg": "/static/media/asampedas.855808a1af61dfed86d4.jpg",
+    "static/media/tahu.jpg": "/static/media/tahu.76d9443c009d70c7e36d.jpg",
+    "static/media/kueh.png": "/static/media/kueh.fb74e76aca4926ad9c23.png",
+    "static/media/capatikeema.webp": "/static/media/capatikeema.65926ca5bea6ff1671d4.webp",
+    "static/media/breakfast.png": "/static/media/breakfast.1552fb81901b1006fcb3.png",
+    "static/media/postpartum.png": "/static/media/postpartum.df888a470eb0226195f0.png",
+    "static/media/lunch.png": "/static/media/lunch.4cefe1a639a6d9315693.png",
+    "static/media/burger.png": "/static/media/burger.353cdcfd6f090ddbb7c5.png",
+    "static/media/dinner.png": "/static/media/dinner.0e5a8d991011781f3d87.png",
+    "static/media/shop.png": "/static/media/shop.217c9afeb62997b776e4.png",
+    "static/media/afternoonTea.png": "/static/media/afternoonTea.4f3894c348d33a8c0321.png",
+    "static/media/more.png": "/static/media/more.04fa5d15fabe75f00f3d.png",
+    "static/media/frozenFood.png": "/static/media/frozenFood.8b37494652c2c8c1d25e.png",
+    "static/media/nopicture.png": "/static/media/nopicture.ac4a80cfb3614802b31b.png",
+    "static/media/google.png": "/static/media/google.9db27c1011edb821b59c.png",
+    "static/media/noImage.png": "/static/media/noImage.de3c035912510314a5f5.png",
+    "static/media/rice.svg": "/static/media/rice.60f11a0eeed4954c41e9.svg",
+    "static/media/anekakueh.jpeg": "/static/media/anekakueh.02fa26f424e395a757d5.jpeg",
+    "static/media/curryRice.svg": "/static/media/curryRice.c99afc0873cda2169525.svg",
+    "static/media/snack.svg": "/static/media/snack.0ee67f1bd9340911969b.svg",
+    "index.html": "/index.html",
+    "main.9d589269.css.map": "/static/css/main.9d589269.css.map",
+    "main.8c667157.js.map": "/static/js/main.8c667157.js.map",
+    "453.40094eb3.chunk.js.map": "/static/js/453.40094eb3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d589269.css",
+    "static/js/main.8c667157.js"
+  ]
+}

@@ -1,0 +1,12 @@
+.home {
+    overflow-y: auto;
+    height: 100vh;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.home::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+

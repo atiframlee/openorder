@@ -1,0 +1,464 @@
+/* ────────── CONTAINER ────────── */
+.vendors {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+/* ────────── HEADER ────────── */
+.venNewHeader {
+    padding-top: 3rem;
+    border-radius: 0 0 30px 0;
+    padding-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+    border-bottom: 1px solid rgba(215, 215, 215, 0.5);
+}
+
+.venHeaderBlockFirst {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.venNewBack {
+    width: 3rem;
+}
+
+.venHeaderBlockSecond {
+    flex: 1;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.venHeaderBlockThird {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.venShareI {
+    margin: 0 1.5rem 0 1rem;
+}
+
+/* ────────── TOP VENDOR BOX ────────── */
+.venTop {
+    display: flex;
+    margin-bottom: -0.5rem;
+    margin-top: 6rem;
+}
+
+.venTopOne {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    margin: 0.5rem 0 0.5rem 1rem;
+    border-radius: 7.5px 0 0 7.5px;
+    border: 1px solid rgba(200, 200, 200, 0.4);
+    justify-content: center;
+    text-transform: capitalize;
+    background-color: white;
+}
+
+.venTopShopCon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.venTopShopICon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+}
+
+.venTopShopI {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.venTopName {
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+}
+
+.venTopLoc,
+.venTopRate {
+    font-size: 14px;
+}
+
+.venTopRate {
+    display: flex;
+    align-items: center;
+}
+
+.venStar {
+    margin-right: 5px;
+    color: rgb(255, 162, 0);
+}
+
+/* Delivery & Pick Up Block */
+.venTopTwo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.venTopDel,
+.venTopPickUp {
+    flex: 1;
+    padding: 0.75rem 0;
+    font-size: 12px;
+    margin: 0.5rem 1rem 0.5rem 0.5rem;
+    border: 1px solid rgba(200, 200, 200, 0.4);
+    border-radius: 0 7.5px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.venTopDel {
+    margin-bottom: 0;
+}
+
+.venTopPickUp {
+    border-radius: 0 0 7.5px 0;
+}
+
+/* Delivery status icons */
+.venDelStat {
+    color: green;
+    margin-top: 2.5px;
+}
+
+.venDelStatX {
+    color: red;
+    margin-top: 2.5px;
+}
+
+/* ────────── SEARCH ────────── */
+.venSearchMenu {
+    display: flex;
+    padding: 1rem;
+    position: relative;
+}
+
+.venSearchI {
+    position: absolute;
+    margin-left: 0.6rem;
+    margin-top: 0.9rem;
+}
+
+.venSearchIn {
+    width: 100%;
+    font-size: 16px;
+    padding: 0.75rem 2rem 0.75rem 2.5rem;
+    border-radius: 7.5px;
+    background-color: white;
+    border: 1px solid rgba(200, 200, 200, 0.4);
+}
+
+.venSearchIn:focus {
+    outline: none;
+}
+
+.venSearchIn::placeholder {
+    color: rgb(74, 73, 73);
+}
+
+/* No Menus */
+.venNoMenus{
+    display: flex;
+    margin-top: 3rem;
+    padding-left: 1.5rem;
+}
+
+/* ────────── CATEGORY ────────── */
+.venCat {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.venCatDate{
+    border: 1px solid black;
+    background-color: white;
+    padding: 0.1rem 0.5rem;
+    border-radius: 5px;
+    margin: 0 0.25rem;
+}
+
+.venCatDateHeader{
+    background-color: rgba(35, 117, 8, 0.1);
+    padding: 0.25rem 1rem;
+    border-radius: 5px;
+    color: green;
+    font-weight: 550;
+}
+
+/* ────────── MENU LIST ────────── */
+.venMenusContainer {
+    padding-bottom: 7em;
+}
+
+.venMenus {
+    display: flex;
+    margin: 0.75rem 1rem;
+    padding: 0.25rem 0;
+    border-radius: 7.5px;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    font-size: 90%;
+}
+
+.venMenusLeft {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.venMenusMid {
+    display: flex;
+    flex: 3;
+    padding: 0 0;
+    flex-direction: column;
+    margin: 0.5rem;
+    margin-left: 0;
+}
+
+.venMenusRight {
+    flex: .5;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.venQtyBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.venPlus {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    font-size: 25px;
+}
+
+.venPlusButton{
+    border: 1px solid black;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+}
+
+.venMenuQty {
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0.5rem 0;
+    display: flex;
+    flex: 2;
+}
+
+.venMenuMinus {
+    display: flex;
+    flex: 1;
+    font-size: 25px;
+}
+
+/* ────────── REAL IMAGE STYLING ────────── */
+.venMenuImg {
+    width: 100%;
+    height: 7.5rem;
+    object-fit: cover;
+    border-radius: 7.5px;
+}
+
+/* ────────── FALLBACK IMAGE STYLING ────────── */
+.venMenuImgFallback {
+    width: 100%;
+    height: 7.5rem;
+    border-radius: 7.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    position: relative;
+    box-shadow: 1px 1px 1px rgb(221, 221, 221),-1px -1px 1px rgb(215, 211, 211);
+}
+
+.fallbackImg{
+    width: 25%;
+    height: auto;
+}
+
+/* Optional: Add "No photo" badge as real element */
+.venMenuImgFallback::after {
+    content: "No photo";
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    font-size: 10px;
+    color: #6c757d;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2px 5px;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+.venMenusName {
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.venMenusPrice {
+    margin-top: 5px;
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+    margin-top: 0.5rem;
+    color: green;
+    font-weight: 450;
+}
+
+.midPrepare{
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+    margin-top: 0.5rem;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.midstar{
+    color: orange;
+}
+
+.midSold{
+    background-color: rgb(242, 245, 247);
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.delTime{
+    padding: 0.25rem;
+    /* color: blue; */
+    border-radius: 5px;
+    /* border: 1px solid blue; */
+    color: blue;
+    background-color: hsla(240, 100%, 50%, 0.05);
+    /* background-color: rgb(235, 235, 242); */
+}
+
+.preOrderIcon{
+    color: red;
+}
+
+.venMenusStock {
+    font-size: 14px;
+    color: #444444;
+    margin-top: 0.2rem;
+}
+
+
+/* Add these new styles to Vendors.css */
+
+.menuRating {
+  margin: 0.2rem 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.midstar {
+  margin-right: 3px;
+  color: #FF9800;
+}
+
+.deliveryPattern {
+  margin: 0.2rem 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.deliveryIcon {
+  margin-right: 5px;
+}
+
+.inventoryInfo {
+  margin: 0.2rem 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.invenIcon {
+  margin-right: 5px;
+}
+
+.vendorNextDelivery {
+  margin: 0.2rem 0;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.calendarIcon {
+  margin-right: 5px;
+}
+
+.vendorDelSlotCon{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+}
+
+.vendorDelDate{
+    margin: 0 0.25rem;
+    font-weight: 550;
+    color: green;
+}
+
+/* ✅ NEW: Individual time slot styling */
+.delTimeSlot {
+  background-color: rgba(0, 123, 255, 0.05);
+  color: #004792;
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  margin: 0.25rem 0.25rem;
+  font-size: 11px;
+  border: 1px solid rgba(0, 123, 255, 0.5);
+  font-weight: 450;
+  font-size: 12px;
+}
+
+.delTimeSlot:last-child {
+  margin-right: 0;
+}
